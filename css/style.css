@@ -77,7 +77,7 @@ main {
     display: flex;
 }
 
-@media (max-width:410px) {
+@media (max-width:500px) {
 
     .About>p {
 
@@ -90,13 +90,13 @@ main {
         font-size: 15px;
         font-weight: 500;
     }
-    
+
 
     .cards {
 
         display: block;
     }
-   
+
 
 }
 
