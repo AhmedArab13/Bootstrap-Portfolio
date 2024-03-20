@@ -72,7 +72,13 @@ main {
 
 }
 
-@media (min-width:320px)  { 
+.cards {
+    display: flex;
+}
+
+
+
+@media (max-width:320px) {
 
     .About>p {
 
@@ -84,6 +90,10 @@ main {
     .About .know {
         font-size: 15px;
         font-weight: 500;
+    }
+
+    .cards {
+        display: block;
     }
 
 
