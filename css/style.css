@@ -72,8 +72,7 @@ main {
 
 }
 
-
-@media (min-width:0px) and (max-width:900px) {
+@media (min-width:320px)  { 
 
     .About>p {
 
@@ -89,6 +88,23 @@ main {
 
 
 }
+
+/* @media (min-width:0px) and (max-width:900px) {
+
+    .About>p {
+
+
+        display: none;
+
+    }
+
+    .About .know {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+} */
 
 .About .know {
     font-size: 35px;
