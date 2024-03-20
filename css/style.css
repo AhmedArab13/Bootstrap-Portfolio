@@ -92,9 +92,12 @@ main {
     }
     
 
-    .cards {
+    .carousel {
 
-        display: block;
+        display: none;
+    }
+    .clientSpeak {
+        display: none;
     }
    
 
