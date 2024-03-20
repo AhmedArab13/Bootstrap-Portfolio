@@ -72,10 +72,6 @@ main {
 
 }
 
-.cards {
-    display: flex;
-}
-
 
 
 @media (max-width:320px) {
@@ -91,11 +87,15 @@ main {
         font-size: 15px;
         font-weight: 500;
     }
+    
 
-    .cards {
-        display: block;
+    .carousel{
+        display: none;
     }
-
+   
+    .clientSpeak{
+        display: none;
+    }
 
 }
 
