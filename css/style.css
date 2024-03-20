@@ -73,11 +73,11 @@ main {
 }
 
 
-@media (min-width:0px) and (max-width:600px) {
+@media (min-width:0px) and (max-width:900px) {
 
     .About>p {
 
-    
+
         display: none;
 
     }
