@@ -69,11 +69,31 @@ main {
     font-weight: 700;
     text-transform: uppercase;
     color: #dddddd;
+
+}
+
+
+@media (min-width:0px) and (max-width:600px) {
+
+    .About>p {
+
+    
+        display: none;
+
+    }
+
+    .About .know {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
 }
 
 .About .know {
     font-size: 35px;
     font-weight: 700;
+
 }
 
 .About .know .underline {
@@ -82,5 +102,3 @@ main {
     height: 6px;
     margin: auto;
 }
-
-
